@@ -1,11 +1,11 @@
 /**
- * @name         Quiet
+ * @name         Anime theme
  * @description  Dark and Quiet. Easy on the eyes.
- * @author       Izy
+ * @author       eqrf
  * @version      2.0
- * @source       https://github.com/squee666/Discord-Themes/blob/master/Themes/Quiet.theme.css
- * @invite       TeRQEPb
- * @authorId     107511169366888448
+ * @source       https://github.com/lordofdoges/anime-discord-theme/blob/master/Themes/Quiet.theme.css
+ * @invite       
+ * @authorId     
  */
 
 /* IMPORT CSS FROM GITHUB */
@@ -16,12 +16,15 @@ IMPORTANT: CHANGE DISCORDS THEME TO DARK THEME IN APPEARANCE SETTINGS FOR THIS T
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ===== CUSTOMIZABLE COLORS =====
 */
-:root{
---mc: #cc1444 !important;                                   /*Main Colour*/     
---hc: #770425 !important;                                   /*Hover Colour*/       
+:root { 
+--mc: #7c13c2 !important;                                   /*Main Colour*/     
+--hc: #581485 !important;                                   /*Hover Colour*/       
+--BG: url("https://c.tenor.com/acWtVsK4MZ4AAAAC/violet-evergarden.gif") !important;    /*Wallpaper*/  
+--RB: rgba(0,0,0,0.70) !important;                          /*Reborn Transparency Higher is Darker*/   
 --br: 50px !important;                                       /*RoundNess of Icons*/    
 --QT: #19191b ;                                             /*Quiet Theme Colour*/    
---QTD: #121213;                                             /*Quiet Off Parts Colour*/   
+--QTD: #121213;                                             /*Quiet Off Parts Colour*/  
+--blur: 0px;                                                /*Set to 1-10px to adjust reborn wallpaper blur*/ 
 }
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
